@@ -164,3 +164,39 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contenedor div {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+iframe, video {
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    border-radius: 5px;
+}
+.codigo {
+    color: #070707;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+pre {
+    text-align: center;
+}

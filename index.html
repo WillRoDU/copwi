@@ -66,11 +66,39 @@
             <button>🔍 Buscar</button>
         </div>
 
-        <article>
-            <h2>Historia de Internet</h2>
-            <p>La historia de Internet se remonta a la década de 1960...</p>
-            <p>Internet ha revolucionado la comunicación en todo el mundo...</p>
+        <article class="html-tags">
+            <h2>¿Qué es la etiqueta &lt;iframe&gt; y &lt;video&gt; en HTML?</h2>
+        
+            <div class="contenedor">
+                <!-- Sección de Video -->
+                <div>
+                    <h3>Etiqueta &lt;video&gt;</h3>
+                    <p>La etiqueta <code>&lt;video&gt;</code> permite reproducir videos directamente en una página web sin necesidad de complementos externos.</p>
+                    <video controls > 
+                        <source  src="4f.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <div class="codigo">
+                        <pre>&lt;video controls&gt;
+            &lt;source src="video.mp4" type="video/mp4"&gt;
+            Tu navegador no soporta el elemento de video.
+        &lt;/video&gt;</pre>
+                    </div>
+                </div>
+        
+                <!-- Sección de Iframe -->
+                <div>
+                    <h3>Etiqueta &lt;iframe&gt;</h3>
+                    <p>La etiqueta <code>&lt;iframe&gt;</code> se usa para incrustar contenido externo, como páginas web o videos de YouTube.</p>
+                    <iframe src="https://www.youtube.com/embed/uzB_bVqXgLU?si=Rq1fqiV7QX3BtElh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="codigo">
+                        <pre>&lt;iframe src="https://www.example.com" frameborder="0"&gt;&lt;/iframe&gt;</pre>
+                    </div>
+                </div>
+            </div>
+            </div>
         </article>
+        
     </main>
 
     <footer>
